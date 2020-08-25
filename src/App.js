@@ -35,7 +35,7 @@ const App = () => {
     setCurrentMove(prev => prev + 1);
   };
   const moveTo = move => {
-    setCurrentMove(move);
+    setCurrentMove(move); // comentariu
   };
 
   const onNewGame = () => {
